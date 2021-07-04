@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+h1{
+    font-size: 50px;
+}
+.welcome-section{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section-items{
+    width: 50%;
+    padding-left: 5%;
+}
+.section-items img{
+    width: 80%;
+}
+.for-all-section{
+    display: flex;
+}
+.name{
+    color: rgb(201, 16, 16);
+}
+
+.hire-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(rgb(201, 16, 16), rgb(97, 29, 69));
+    font-weight: 550;
+    padding: 10px 30px;
+    border-radius: 5%;
+}
